@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Jquery basics</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+       <script src="https://use.fontawesome.com/9272e99e19.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Actor" rel="stylesheet">
+
+</head>
+
+<body >
+	<div style="height:250px; ">
+<nav class="menu_open navbar_nav" >
+  <a href="#" id="menu-acces" class="menu_a"><i class="fas fa-bars  " style="color: white"></i></a>
+  <ul class="menu_open navbar_ul">
+    <li class="menu_li">
+      <a class="menu_a" href="#">HOME</a>
+    </li>
+    <li class="menu_li">
+      <a class="menu_a" href="#">WORKS</a>
+    </li>
+    <li class="menu_li">
+      <a class="menu_a" href="#">ABOUT</a>
+    </li>
+    <li class="menu_li">
+      <a class="menu_a" href="#">CONTACT</a>
+    </li>
+    
+  </ul>
+</nav></div>
+<div><h1 style="text-align: center;">Jquery Assignment</h1></div>
+
+<div style="display: flex;flex-direction: column;justify-content: center;padding-top:50px;  " >
+<button href="#" class="modal-open" data-modal="modal-name">Modal open!</button> <!-- Trigger Modal. -->
+
+<!-- Modal -->
+<div class="modal" id="modal-name">
+  <div class="closemodal"></div>
+  <div class="modal-box">
+    <div class="modal-header">
+      <div class="close-modal">&#10006;</div> 
+      <h1>Jquery modal box</h1>
+    </div>
+    <div class="modal-body">
+      <p>Modal opened . <br><br>Hello I am a modal<br> I am appearing here with the help of Jquery</p>
+     
+      <br />
+      <button class="close-modal">Close!</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+	<div style="display: flex;flex-direction: column;justify-content: center; ">
+	<button id="flip" >Collapsible Group Item #1</button>
+
+<div id="panel" class="expand">text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
+
+<button id="flip2">Collapsible Group Item #2</button>
+
+<div id="panel2" class="expand" >text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
+
+<button id="flip3" >Collapsible Group Item #3</button>
+
+<div id="panel3" class="expand" > text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</div>
+
+</div>
+ 
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
